@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  margin:auto;
+  padding-top: 5em;
+}
+
+.gameboyBody {
+  margin:auto;
+  width: 30em;
+  height: 45em;
+  background-color: rgb(204, 199, 199);
+  border-radius: 1em 1em 4em 1em;
+}
+
+/* Parte superior */
+
+.gameboyTop{
+  display: flex;
+  margin: auto;
+  height: 2em;
+  border-bottom: 4px solid grey;
+}
+
+.topLineLeft {
+  height: 2em;
+  margin-left: 2.5em;
+  border-left: 4px solid grey;
+}
+
+.topCenter {
+  margin-left: 25em;
+}
+
+.topLineRight {
+  height: 2em;
+  margin-right: 2.5em;
+  border-right: 4px solid grey;
+}
+
+
+
+/* Pantalla */
+
+.containerScreen {
+  background-position: center;
+  margin: 2em 2em;
+  width: 25em;
+  height: 20em;
+  background-color: rgb(115, 111, 122);
+  border-radius: 1em 1em 4em 1em;
+
+}
+
+.textLine {
+  padding-top: .8em;
+}
+
+.redLine {
+  border-top: 4px solid darkred;
+}
+
+.blueLine {
+  border-bottom: 4px solid darkblue;
+}
+
+a {
+  color: aliceblue;
+  padding-left: 13em;
+  font-size: 11px;
+}
+
+.screenTopBorder {
+}
+
+.rightSideway {
+  padding-right: 3em;
+}
+
+.leftSideway {
+  padding-left: 3em;
+
+}
+
+.downScreenBorder {
+
+}
+
+.pantalla {
+  width: 15em;
+  margin: 1em 1em 0em 5em;
+  height: 14em;
+  background-color: olive;
+}
+
