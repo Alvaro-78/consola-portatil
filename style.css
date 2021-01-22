@@ -5,10 +5,11 @@
 }
 
 .gameboyBody {
-  margin:auto;
   width: 30em;
   height: 45em;
-  background-color: rgb(204, 199, 199);
+
+  margin:auto;
+  background-color:#d7d6d1;
   border-radius: 1em 1em 4em 1em;
 }
 
@@ -16,79 +17,154 @@
 
 .gameboyTop{
   display: flex;
-  margin: auto;
   height: 2em;
-  border-bottom: 4px solid grey;
+
+  margin: auto;
+  border-bottom: 4px solid #baac9f;
 }
 
 .topLineLeft {
   height: 2em;
-  margin-left: 2.5em;
-  border-left: 4px solid grey;
+
+  margin-left: 2em;
+  border-left: 4px solid #baac9f;
 }
 
 .topCenter {
-  margin-left: 25em;
+  margin: auto;
+  width: 25em;
+}
+
+.onButton {
+  color: #baac9f;
+  margin-left: 2em;  
+  border: 4px solid #baac9f;
+  border-radius: 5px;
+  font-size: 12px;
 }
 
 .topLineRight {
   height: 2em;
-  margin-right: 2.5em;
-  border-right: 4px solid grey;
-}
 
+  margin-right: 2em;
+  border-right: 4px solid #baac9f;
+}
 
 
 /* Pantalla */
 
 .containerScreen {
   background-position: center;
-  margin: 2em 2em;
-  width: 25em;
-  height: 20em;
-  background-color: rgb(115, 111, 122);
+  height: 24em;
+}
+
+.screenTop{
+  width: 30em;
+  height: 2em;
+}
+
+.screenDown {
+  width: 30em;
+  height: 2em;
+}
+
+.containerCenter {
+  display: flex;
+  flex-direction: row;
+  width: 30em;
+  height:20em;
+
+}
+
+.leftSide {
+  width: 3.5em;
+  height: 16em;
+
+  background-color: #d8d7d2;
+}
+
+.rightSide {
+  width: 3.5em;
+  height: 16em;
+
+  background-color: #d8d7d2;
+}
+
+.center {
+  width: 26em;
+  
   border-radius: 1em 1em 4em 1em;
 
 }
 
-.textLine {
-  padding-top: .8em;
-}
+.containerCenterScreen {
+  display: flex;
+  flex-direction: row;
 
-.redLine {
-  border-top: 4px solid darkred;
-}
-
-.blueLine {
-  border-bottom: 4px solid darkblue;
-}
-
-a {
-  color: aliceblue;
-  padding-left: 13em;
-  font-size: 11px;
-}
-
-.screenTopBorder {
-}
-
-.rightSideway {
-  padding-right: 3em;
-}
-
-.leftSideway {
-  padding-left: 3em;
-
-}
-
-.downScreenBorder {
-
-}
-
-.pantalla {
-  width: 15em;
-  margin: 1em 1em 0em 5em;
+  width: 26.1em;
   height: 14em;
-  background-color: olive;
 }
 
+.centerTop{
+  height: 3em;
+  background-color:#8a8b91;
+
+  border-radius: 1em 1em 0 0;
+}
+
+.centerTopDecoration {
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: space-between; 
+  
+  padding-top: 1em;
+}
+
+.colorLineLeft{
+  width: 6em;
+  height: .3em;
+  padding-left: 1em;
+  border-top: 3px solid#a06a8c;
+  border-bottom: 3px solid#463c79;
+
+}
+
+.colorLineRight {
+  width: 3em;
+  height: .3em;
+  border-top: 3px solid#a06a8c;
+  border-bottom: 3px solid#463c79;
+
+}
+ .screenText {
+  width: 18em;
+  padding-left: 1em;
+  color: aliceblue;
+  font-size: 12px;
+} 
+
+
+.centerLeft {
+  width: 7em;
+  background-color:#8a8b91;
+}
+
+.centerRight {
+  width: 7em;
+
+  background-color:#8a8b91;
+}
+
+.centerDown {
+  height: 3em;
+
+  background-color:#8a8b91;
+  border-radius: 0em 0em 4em 1em;
+
+}
+
+.centerScreen {
+  width: 22em;
+  background-color: blue;
+}
