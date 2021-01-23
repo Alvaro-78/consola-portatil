@@ -1,0 +1,39 @@
+
+/* Parte superior */
+
+.gameboyTop{
+  display: flex;
+  height: 2em;
+
+  margin: auto;
+  border-bottom: 4px solid #baac9f;
+}
+
+.topLineLeft {
+  height: 2em;
+
+  margin-left: 2em;
+  border-left: 4px solid #baac9f;
+}
+
+.topCenter {
+  margin: auto;
+  width: 25em;
+}
+
+.onButton {
+  color: #baac9f;
+  margin-left: 2em;  
+  border: 4px solid #baac9f;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.topLineRight {
+  height: 2em;
+
+  margin-right: 2em;
+  border-right: 4px solid #baac9f;
+}
+
+
