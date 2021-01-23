@@ -9,11 +9,12 @@
 }
 
 .text1{
+  padding: .2em;
   font-size: 20px;
 }
 
 .text2 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .text3 {
@@ -30,24 +31,63 @@
 
 }
 
-.arrowVertical {
-  margin-right: 4em;
+.arrowVerticalLeft {
+  flex-direction: column;
   width: 2em;
   height: 6em;
   
   background-color:black;
-
 }
 
-.arrowHorizontal {
-  width: 6em;
+.arrowHorizontalLeft {
+  width: 2em;
   height: 2em;
 
   background-color:black;
 }
 
+.arrowHorinzontalRight {
+  width: 2em;
+  height: 2em;
+  
+  background-color:black;
+}
+
 .buttons {
-  width: 15em;
-  height: 15em;
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10em;
+  width: 12em;
+  height: 6em;
+
+}
+
+.buttonAposition {
+  width: 3em;
+  height: 6em;
+}
+
+ .buttonBposition {
+} 
+
+.buttonB {
+  margin-top: 2em;
+  width: 3em;
+  height: 3em;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #c13f6a;
+}
+
+.wordB {
+  justify-content: end;
+}
+
+.buttonA {
+  margin-top: 2em;
+  width: 3em;
+  height: 3em;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #c13f6a;
+
 }

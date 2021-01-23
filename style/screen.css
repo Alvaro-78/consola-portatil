@@ -95,24 +95,27 @@
 .centerLeft {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 10em;
 
   font-size: 10px;
   background-color:#8a8b91;
 }
 
-img {
-  padding-top: 7em;
-  padding-left: 3.5em;
+.redLight {
   width: 1em;
   height: 1em;
+
+  margin-bottom: 1em;
+
+  background-color: red;
+  border-radius: 25px 25px 25px 25px;
 }
 
 .battery {
-  padding-top: 2em;
-  padding-left: 2em;
-  flex-direction: column;
-  justify-content:end;
+  margin-bottom: 6em;
+  padding-left: 1em;
 }
 
 .centerRight {
