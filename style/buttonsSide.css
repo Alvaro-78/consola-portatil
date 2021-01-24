@@ -1,5 +1,6 @@
 .containerText {
   width: 30em;
+  height: 24em;
 }
 
 .text {
@@ -27,12 +28,11 @@
   align-items: center;
   justify-content: center;
   width: 30em;
-  height: 15em;
+  height: 16em;
 
 }
 
 .arrowVerticalLeft {
-  flex-direction: column;
   width: 2em;
   height: 6em;
   
@@ -55,39 +55,51 @@
 
 .buttons {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 10em;
-  width: 12em;
+  flex-direction: row;
+  justify-content: center;
+  width: 10em;
   height: 6em;
-
+  padding-left: 10em;
 }
 
 .buttonAposition {
-  width: 3em;
-  height: 6em;
+  width: 6em;
 }
 
- .buttonBposition {
-} 
+.buttonA {
+  width: 3em;
+  height: 3em;
+  
+  border-radius: 25px 25px 25px 25px;
+  
+  background-color: #c13f6a;
+}
+
+.wordA {
+  padding-top: 4em;
+  padding-left: 1.5em;
+  transform: rotate(-20deg);
+}
+
+.buttonBposition {
+  width: 6em;
+  padding-right: 1em;
+  padding-left: 2em;
+  padding-top: 1em;
+}
 
 .buttonB {
   margin-top: 2em;
   width: 3em;
   height: 3em;
+
   border-radius: 25px 25px 25px 25px;
+
   background-color: #c13f6a;
 }
 
 .wordB {
-  justify-content: end;
-}
-
-.buttonA {
-  margin-top: 2em;
-  width: 3em;
-  height: 3em;
-  border-radius: 25px 25px 25px 25px;
-  background-color: #c13f6a;
-
+  padding-left: 1.5em;
+  padding-top: 4em;
+  transform: rotate(-20deg);
 }

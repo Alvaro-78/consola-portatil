@@ -136,3 +136,9 @@
   width: 22em;
   background-color:#6b8c05;
 }
+
+.centerScreen:hover {
+  width: 22em;
+  height: 14em;
+  background-image:url(https://static.vecteezy.com/system/resources/thumbnails/000/109/334/small/game-over-free-vector-background.jpg);
+}
