@@ -1,3 +1,5 @@
-## Console Portátil
-Proyecto creado en CSS3 y HTML5 para practicar como crear un diseño
+## Consola GameBoy
 
+Proyecto sobre hacer una videoconsola en HTML5 y CSS3
+
+[Github Page](https://alvaro-78.github.io/consola-portatil/)
